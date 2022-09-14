@@ -1,31 +1,39 @@
 {
-    "expo": {
-        "name": "weather",
-        "slug": "weather",
-        "version": "1.0.0",
-        "orientation": "portrait",
-        "icon": "./assets/weather-icon.png",
-        "userInterfaceStyle": "light",
-        "splash": {
-            "image": "./assets/weather-splash.png",
-            "resizeMode": "contain",
-            "backgroundColor": "#ffffff"
-        },
-        "updates": {
-            "fallbackToCacheTimeout": 0
-        },
-        "assetBundlePatterns": ["**/*"],
-        "ios": {
-            "supportsTablet": true
-        },
-        "android": {
-            "adaptiveIcon": {
-                "foregroundImage": "./assets/weather-icon.png",
-                "backgroundColor": "#FFFFFF"
-            }
-        },
-        "web": {
-            "favicon": "./assets/favicon.png"
-        }
+  "expo": {
+    "name": "weather",
+    "slug": "weather",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/weather-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/weather-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "ddsdsd.dsd",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/weather-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7560af77-22f7-4333-b0b5-59430914aff2"
+      }
     }
+  }
 }

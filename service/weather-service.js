@@ -1,11 +1,10 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { REACT_APP_API_KEY, REACT_APP_API_BASE } from '@env';
 
 export default class WeatherService {
     constructor() {
         this.cityNameFromStorage = 'bogorodsk-nizhegorod-russia';
-        this._apiKey = REACT_APP_API_KEY;
-        this._apiBase = REACT_APP_API_BASE;
+        this._apiKey = '76462f1ba4864c02b95125034221209';
+        this._apiBase = 'http://api.weatherapi.com/';
     }
 
     getCityFromStorage = async () => {
